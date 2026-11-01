@@ -1,0 +1,1 @@
+Place your original character, environment and obstacle GLB/GLTF assets here. The prototype currently uses procedural placeholder geometry.
