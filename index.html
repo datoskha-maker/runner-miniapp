@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="theme-color" content="#07111f" />
+  <title>Runner — prototype</title>
+</head>
+<body>
+  <div id="app">
+    <div id="hud">
+      <div class="pill">ДИСТАНЦИЯ <b id="distance">0 м</b></div>
+      <div class="pill">МОНЕТЫ <b id="coins">0</b></div>
+      <div class="pill">РЕКОРД <b id="best">0 м</b></div>
+    </div>
+    <div id="center">
+      <h1 id="headline">RUNNER</h1>
+      <p id="message">Свайпай влево/вправо, вверх — прыжок, вниз — подкат</p>
+      <button id="start">НАЧАТЬ ЗАБЕГ</button>
+    </div>
+    <div id="power"></div>
+    <div id="controls"><span>← → ПОЛОСА</span><span>↑ ПРЫЖОК</span><span>↓ ПОДКАТ</span></div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
